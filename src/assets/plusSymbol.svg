@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="56" height="56" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.786" y1="0.12" x2="0.265" y2="0.765" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7b1fa2"/>
+      <stop offset="1" stop-color="#7b1fa2"/>
+    </linearGradient>
+  </defs>
+  <g id="Plus_Symbol" data-name="Plus Symbol" clip-path="url(#clip-path)">
+    <path id="Caminho_267" data-name="Caminho 267" d="M28,0A28,28,0,1,1,0,28,28,28,0,0,1,28,0Z" fill="url(#linear-gradient)"/>
+    <path id="ic_add_24px" d="M19,13H13v6H11V13H5V11h6V5h2v6h6Z" transform="translate(16 16)" fill="#fff"/>
+  </g>
+</svg>

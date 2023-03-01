@@ -1,0 +1,32 @@
+.container-home {
+  background-color: var(--dark-purple2);
+  min-height: 100vh;
+}
+
+.first-section {
+  background-image: url("../assets/overlay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36.8rem;
+  margin-bottom: 19rem;
+}
+
+.second-section {
+  color: var(--light-blue);
+}
+
+.sub-second {
+  background-image: url("../assets/accomodation.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 29.8rem;
+  position: relative;
+}
+
+.sub-second img {
+  position: absolute;
+  top: -50px;
+  right: 5px;
+}

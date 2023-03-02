@@ -8,6 +8,7 @@ function Home() {
       <div className="first-section"></div>
 
       <div className="second-section">
+
         <h2>Your Plans</h2>
         <div className="sub-second">
           <img src={plusSymbol} alt="Plus symbol"></img>

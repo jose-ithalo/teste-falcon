@@ -3,17 +3,41 @@
   min-height: 100vh;
 }
 
-.first-section {
-  background-image: url("../assets/overlay.jpg");
+.card {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.fifth-section {
+  /* background-image: url("../assets/alternatives.png"); */
+  background-color: var(--purple2);
+  height: 30rem;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.first-section {
+  background-image: url("../assets/overlay.jpg");
   height: 36.8rem;
   margin-bottom: 19rem;
 }
 
-.second-section {
-  padding: 0rem 1rem;
+footer {
+  background-color: var(--dark-purple);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5rem
+}
+
+.fourth-section {
+  background-image: url("../assets/accomodation2.png");
+  height: 30rem;
+}
+
+.middle-body {
+  padding: 0rem 1.5rem;
 }
 
 .second-section h2 {
@@ -24,15 +48,19 @@
 
 .sub-second {
   background-image: url("../assets/accomodation.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 29.8rem;
   position: relative;
 }
 
 .sub-second img {
   position: absolute;
-  top: -50px;
-  right: 0.5rem;
+  top: -4.5rem;
+  right: 0rem;
+}
+
+.tird-section {
+  background-image: url("../assets/reminders.png");
+  height: 30.1rem;
+  padding: 0rem 2rem;
+  margin: 2rem 0rem;
 }

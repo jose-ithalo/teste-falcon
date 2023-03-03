@@ -9,11 +9,31 @@
   background-size: cover;
 }
 
+.destinations-inputs {
+  border-bottom: 1px solid #919191;
+  padding-bottom: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.destinations-inputs :first-child {
+  margin-bottom: 1rem;
+}
+
+.destinations-inputs input {
+  height: 4rem;
+  width: 100%;
+  padding: 1rem;
+}
+
 .fifth-section {
-  /* background-image: url("../assets/alternatives.png"); */
   background-color: var(--purple2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 30rem;
   margin: 1rem 0rem 2rem 0rem;
+  padding: 0rem 1.5rem;
 }
 
 .first-section {
@@ -59,7 +79,8 @@ footer {
 }
 
 .tird-section {
-  background-image: url("../assets/reminders.png");
+  /* background-image: url("../assets/reminders.png"); */
+  background-image: url("../assets/backReminders.png");
   height: 30.1rem;
   padding: 0rem 2rem;
   margin: 2rem 0rem;

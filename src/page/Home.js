@@ -6,6 +6,11 @@ import discover from "../assets/discover.svg";
 import travellersIcon from "../assets/travellersIcon.svg";
 import likes from "../assets/likes.svg";
 
+import taxiIcon from "../assets/taxi.svg";
+import subwayIcon from "../assets/subway.svg";
+import uberIcon from "../assets/uber.svg";
+import uberIcon2 from "../assets/uber2.svg";
+
 function Home() {
   return (
     <div className="container-home">
@@ -20,11 +25,25 @@ function Home() {
           </div>
         </section>
 
-        <section className="tird-section card"></section>
+        <section className="tird-section card">
+          <div></div>
+        </section>
 
         <section className="fourth-section card"></section>
 
         <section className="fifth-section card">
+
+          <div className="destinations-inputs">
+            <input placeholder="From" />
+            <input placeholder="To" />
+          </div>
+
+          <div className="transportations">
+            <img src={taxiIcon} alt="Icon of a taxi" />
+            <img src={subwayIcon} alt="Icon of a subway" />
+            <img src={uberIcon} alt="Icon of a uber" />
+            <img src={uberIcon2} alt="Icon of a uber" />
+          </div>
 
         </section>
 

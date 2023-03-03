@@ -78,10 +78,47 @@ footer {
   right: 0rem;
 }
 
+.body-reminders {
+  background-color: rgba(2, 2, 2, 0.3);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "runda", sans-serif;
+  height: 100%;
+  padding: 0rem 2rem;
+}
+
+.circle {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.2rem;
+  width: 3.2rem;
+
+}
+
+.circle-pickup {
+  background-color: var(--purple);
+  border-radius: 50%;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.driver-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
 .tird-section {
   /* background-image: url("../assets/reminders.png"); */
   background-image: url("../assets/backReminders.png");
   height: 30.1rem;
-  padding: 0rem 2rem;
+  padding: 0rem 0.35rem;
   margin: 2rem 0rem;
 }

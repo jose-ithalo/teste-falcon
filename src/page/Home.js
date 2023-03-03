@@ -3,6 +3,7 @@ import './Home.css';
 import plusSymbol from "../assets/plusSymbol.svg";
 
 import photo from "../assets/photoSushi.svg";
+import editButton from "../assets/editButton.svg";
 
 import taxiIcon from "../assets/taxi.svg";
 import subwayIcon from "../assets/subway.svg";
@@ -39,11 +40,39 @@ function Home() {
             </div>
 
             <div className="route">
-              <div className="pickup-area">
-                <div className="circle">
-                  <div className="circle-pickup"></div>
+
+              <div className="route-area">
+                <div className="route-first">
+                  <div className="circle">
+                    <div className="circle-pickup"></div>
+                  </div>
+                  <div>
+                    <h2>Pickup</h2>
+                    <p>John F. Kennedy International Airport</p>
+                  </div>
                 </div>
+                <button>
+                  <img src={editButton} alt="Edit button" />
+                </button>
               </div>
+
+              <div className="vertical-line"></div>
+
+              <div className="route-area">
+                <div className="route-first">
+                  <div className="circle">
+                    <div className="circle-destination"></div>
+                  </div>
+                  <div>
+                    <h2>Destination</h2>
+                    <p>36 W 38th Street New York, NY 10018</p>
+                  </div>
+                </div>
+                <button>
+                  <img src={editButton} alt="Edit button" />
+                </button>
+              </div>
+
             </div>
           </div>
         </section>

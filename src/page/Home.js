@@ -18,7 +18,15 @@ import likes from "../assets/likes.svg";
 function Home() {
   return (
     <div className="container-home">
-      <section className="first-section card"></section>
+      <section className="first-section card">
+        <h1>Let’s get <br /> you there…</h1>
+        <div className="boardingPass">
+          <div className="top-info">
+            <p className="top-info-first">BOARDING NOW</p>
+            <p className="top-info-second">GATE CLOSES AT 10.00</p>
+          </div>
+        </div>
+      </section>
 
       <div className="middle-body">
 

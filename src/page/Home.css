@@ -5,27 +5,100 @@
 }
 
 .boardingPass {
-  background-color: var(--black);
   height: 30rem;
   width: 35rem;
-  /* opacity: 0.5; */
   margin: 2rem auto;
 }
 
-.top-info {
+.boardingPass-body {
+  background-color: rgba(39, 39, 39, 0.885);
   color: var(--white);
+  height: calc(100% - 3.2rem);
+  padding: 0rem 1.4rem
+}
+
+.boardingPass-city {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  gap: 0.50rem;
+}
+
+.boardingPass-city h1 {
+  font-size: 4.8rem;
+  font-weight: 300;
+}
+
+.boardingPass-city span {
+  font-size: 1.1rem;
+  opacity: 0.5;
+}
+
+.boardingPass-img {
+  display: flex;
+  align-items: center;
+}
+
+.boardingPass-img-line {
+  border: 1px solid #8B8B8B;
+  width: 3rem;
+  margin-left: 0.50rem;
+}
+
+.boardingPass-second {
+  border-bottom: 1px solid #8B8B8B;
+  display: flex;
+  gap: 1.5rem;
   justify-content: center;
-  font-weight: 500;
-  letter-spacing: 0.3rem;
-  height: 3.2rem;
+  padding-bottom: 1.7rem;
+  padding-top: 1.5rem;
+}
+
+.boardingPass-tird {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 2rem;
+}
+
+.boardingPass-tird-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.6rem;
   width: 100%;
 }
 
-.top-info-first {
-  background-color: var(--green);
-  width: 50%;
+.boardingPass-tird-info button {
+  background-color: var(--dark-purple);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+  font-family: "runda", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  margin-right: -2rem;
+  height: 4.5rem;
+  width: 18rem;
+}
+
+.boardingPass-tird-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boardingPass-tird-titles h3 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.boardingPass-tird-titles h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.5;
 }
 
 .body-reminders {
@@ -111,7 +184,7 @@
   position: relative;
 }
 
-.first-section h1 {
+.first-title {
   color: var(--white);
   font-size: 3.6rem;
   font-weight: 300;
@@ -182,6 +255,7 @@ footer {
 }
 
 .sub-second img {
+  cursor: pointer;
   position: absolute;
   top: -4.5rem;
   right: 0rem;
@@ -192,6 +266,27 @@ footer {
   height: 30.1rem;
   padding: 0rem 0.35rem;
   margin: 2rem 0rem;
+}
+
+.top-info {
+  color: var(--white);
+  display: flex;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  height: 3.2rem;
+  width: 100%;
+}
+
+.top-info-first,
+.top-info-second {
+  background-color: var(--green);
+  height: 100%;
+  width: 50%;
+  padding: 1rem 0rem 0rem 1.7rem;
+}
+
+.top-info-second {
+  background-color: #212121;
 }
 
 .vertical-line {

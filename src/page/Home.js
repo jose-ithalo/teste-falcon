@@ -1,4 +1,5 @@
-import './Home.css';
+import './home.css';
+import './respo.css';
 
 import travelPlane from "../assets/travel.svg";
 import plusSymbol from "../assets/plusSymbol.svg";

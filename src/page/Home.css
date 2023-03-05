@@ -2,6 +2,7 @@
   background-color: var(--dark-purple2);
   font-family: "runda", sans-serif;
   min-height: 100vh;
+  min-width: 375px;
 }
 
 .boardingPass {

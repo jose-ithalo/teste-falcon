@@ -1,0 +1,26 @@
+/* @media (max-width: 375px) {
+
+    .container-home {
+        max-width: 375px;
+        overflow-x: auto;
+
+    }
+} */
+
+@media (min-width: 890px) {
+    .boardingPass {
+        width: 70rem;
+    }
+
+    .boardingPass-second {
+        justify-content: space-evenly;
+    }
+
+    .boardingPass-tird-info {
+        justify-content: space-around;
+    }
+
+    .boardingPass-tird-info button {
+        margin-right: 5.5rem;
+    }
+}

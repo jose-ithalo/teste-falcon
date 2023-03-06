@@ -103,7 +103,7 @@
 }
 
 .card {
-  background-position: center;
+  background-position: center bottom 10%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -190,6 +190,12 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 7.5rem
+}
+
+footer img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s all
 }
 
 .fourth-section {

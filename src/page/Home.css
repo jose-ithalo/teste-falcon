@@ -102,6 +102,16 @@
   opacity: 0.5;
 }
 
+.body-reminders {
+  background-color: rgba(0, 0, 0, 0.664);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0rem 2rem;
+}
+
 .card {
   background-position: center bottom 10%;
   background-repeat: no-repeat;
@@ -263,16 +273,6 @@ footer img:hover {
   height: 30.1rem;
   padding: 0rem 0.35rem;
   margin: 2rem 0rem;
-}
-
-.body-reminders {
-  background-color: rgba(0, 0, 0, 0.664);
-  color: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  padding: 0rem 2rem;
 }
 
 .top-info {

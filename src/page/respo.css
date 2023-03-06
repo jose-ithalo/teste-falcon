@@ -1,11 +1,27 @@
-/* @media (max-width: 375px) {
-
-    .container-home {
-        max-width: 375px;
-        overflow-x: auto;
-
+@media (min-width: 450px) {
+    .fifth-section {
+        margin: 3rem 0rem 4rem 2.5%;
+        height: 38rem;
+        width: 95%;
     }
-} */
+
+    .tird-section {
+        margin: 4rem 0rem 4rem 2%;
+        width: 96%;
+    }
+}
+
+@media (min-width: 449px) and (max-width: 660px) {
+    .tird-section {
+        padding: 0rem 0.25rem;
+    }
+}
+
+@media (min-width: 661px) {
+    .tird-section {
+        padding: 0rem 0.70%;
+    }
+}
 
 @media (min-width: 890px) {
     .boardingPass {

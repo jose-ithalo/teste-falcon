@@ -133,7 +133,7 @@ function Home() {
 
         <section className="fourth-section card"></section>
 
-        <section className="fifth-section card">
+        <section className="fifth-section">
 
           <div className="destinations-inputs">
             <input placeholder="From" />
